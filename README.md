@@ -67,7 +67,7 @@ Ethereum::Contract.create(file: "mycontracts.sol", client: client)
 contract = MyContract1.new
 contract = contract.deploy_and_wait
 contract2 = MyContract2.new
-contract2 = contract.deploy_and_wait
+contract2 = contract2.deploy_and_wait
 ```
 
 All names used to name contract in solidity source will translate to name of classes in ruby (camelized).
